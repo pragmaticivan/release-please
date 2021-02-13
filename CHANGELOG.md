@@ -4,6 +4,35 @@
 
 [1]: https://www.npmjs.com/package/release-please?activeTab=versions
 
+## [11.0.0](https://www.github.com/googleapis/release-please/compare/v10.1.0...v11.0.0) (2021-02-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove GitHubRelease.labels in favor of ReleasePR.labels
+* normalize configuration accross classes (#763)
+* move latestTag logic to ReleasePR (#758)
+
+### Features
+
+* add async interator for searching commit history ([#759](https://www.github.com/googleapis/release-please/issues/759)) ([f42bab1](https://www.github.com/googleapis/release-please/commit/f42bab11d9d737d64f8b4a7184b58951fc6a9d44))
+* add latest-tag command which will print out the detected latest tag for a branch ([#765](https://www.github.com/googleapis/release-please/issues/765)) ([07e2969](https://www.github.com/googleapis/release-please/commit/07e29696c13b323ff8c79bfa350809f8d6b91230))
+* add support for helm ([#748](https://www.github.com/googleapis/release-please/issues/748)) ([c9fbf78](https://www.github.com/googleapis/release-please/commit/c9fbf78832c65425d5efdace2fc0f24233749f6e))
+
+
+### Bug Fixes
+
+* **deps:** update dependency type-fest to ^0.21.0 ([#768](https://www.github.com/googleapis/release-please/issues/768)) ([eb68033](https://www.github.com/googleapis/release-please/commit/eb68033095777b1687275947c7117601ad2e333a))
+* find first associate pull request ([#764](https://www.github.com/googleapis/release-please/issues/764)) ([b277b89](https://www.github.com/googleapis/release-please/commit/b277b8909e78047797796c0428f545ce482a0b2a))
+* **github-release:** release name is packageName ([#757](https://www.github.com/googleapis/release-please/issues/757)) ([869f1a1](https://www.github.com/googleapis/release-please/commit/869f1a1ad7395dd6889033ddc103f99a310ac06b))
+
+
+### Code Refactoring
+
+* move latestTag logic to ReleasePR ([#758](https://www.github.com/googleapis/release-please/issues/758)) ([746d1c8](https://www.github.com/googleapis/release-please/commit/746d1c893a95894420a5fe65706a438492e6605c))
+* normalize configuration accross classes ([#763](https://www.github.com/googleapis/release-please/issues/763)) ([44a3fd2](https://www.github.com/googleapis/release-please/commit/44a3fd2ef61b7083f6bbc88d20c51d57b4f7998e))
+* remove GitHubRelease.labels in favor of ReleasePR.labels ([44a3fd2](https://www.github.com/googleapis/release-please/commit/44a3fd2ef61b7083f6bbc88d20c51d57b4f7998e))
+
 ## [10.1.0](https://www.github.com/googleapis/release-please/compare/v10.0.0...v10.1.0) (2021-02-08)
 
 
